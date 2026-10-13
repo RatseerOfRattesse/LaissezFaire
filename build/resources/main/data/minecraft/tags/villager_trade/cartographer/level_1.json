@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:cartographer/1/paper_emerald",
+    "minecraft:cartographer/1/emerald_map"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "gives": {
+    "id": "minecraft:iron_boots",
+    "components": {
+      "minecraft:enchantments": {
+        "laissezfaire:ripple_intrinsic": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "laissezfaire.intrinsic.setbonus",
+          "fallback": "Full Set Bonus:",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.ripple.1",
+          "fallback": " Mobs that hit you receive",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.ripple.2",
+          "fallback": " damage and spread echoes",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.ripple.3",
+          "fallback": " of the damage to other",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.ripple.4",
+          "fallback": " nearby enemies.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_name": {
+        "translate": "laissezfaire.intrinsic.ripple.iron.boots",
+        "fallback": "Echoing Boots",
+        "color": "yellow"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:entity_interaction_range",
+          "id": "laissezfaire:rippleintrinsic",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "laissezfaire:rippleintrinsicdefault",
+          "amount": 0.5,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ]
+    }
+  },
+  "given_item_modifiers": [],
+  "max_uses": 12,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 4,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": "minecraft:savanna"
+      }
+    }
+  }
+}

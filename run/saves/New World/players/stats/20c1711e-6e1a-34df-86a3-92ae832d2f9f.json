@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:blade_pottery_sherd": 5,
+      "minecraft:iron_helmet": 1
+    },
+    "minecraft:custom": {
+      "minecraft:traded_with_villager": 6,
+      "minecraft:talked_to_villager": 2,
+      "minecraft:time_since_rest": 1663,
+      "minecraft:walk_one_cm": 1133,
+      "minecraft:total_world_time": 1854,
+      "minecraft:leave_game": 1,
+      "minecraft:sneak_time": 15,
+      "minecraft:play_time": 1663,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 1663
+    }
+  },
+  "DataVersion": 4903
+}

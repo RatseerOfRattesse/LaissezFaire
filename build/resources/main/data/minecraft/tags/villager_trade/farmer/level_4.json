@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:farmer/4/emerald_cake",
+    "minecraft:farmer/4/emerald_suspicious_stew"
+  ]
+}

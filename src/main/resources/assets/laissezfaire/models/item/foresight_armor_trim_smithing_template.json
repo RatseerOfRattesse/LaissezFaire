@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "laissezfaire:item/foresight_armor_trim_smithing_template"
+  }
+}

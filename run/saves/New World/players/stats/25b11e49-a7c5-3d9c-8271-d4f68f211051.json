@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:villager_spawn_egg": 2
+    },
+    "minecraft:crafted": {
+      "minecraft:shield": 3
+    },
+    "minecraft:custom": {
+      "minecraft:traded_with_villager": 3,
+      "minecraft:sprint_one_cm": 3873,
+      "minecraft:talked_to_villager": 7,
+      "minecraft:time_since_rest": 4147,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:walk_one_cm": 3959,
+      "minecraft:total_world_time": 5486,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 2533,
+      "minecraft:play_time": 4147,
+      "minecraft:jump": 12,
+      "minecraft:time_since_death": 4147
+    }
+  },
+  "DataVersion": 4903
+}

@@ -1,0 +1,74 @@
+{
+  "gives": {
+    "id": "minecraft:diamond_leggings",
+    "components": {
+      "minecraft:enchantments": {
+        "laissezfaire:vitality_intrinsic": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "laissezfaire.intrinsic.setbonus",
+          "fallback": "Full Set Bonus:",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.vitality.1",
+          "fallback": " Absorb your kills'",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.vitality.2",
+          "fallback": " life force into",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.vitality.3",
+          "fallback": " absorption.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_name": {
+        "translate": "laissezfaire.intrinsic.vitality.diamond.leggings",
+        "fallback": "Vigor Leggings",
+        "color": "dark_purple"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "laissezfaire:vitalityintrinsic2",
+          "amount": 1.5,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "laissezfaire:vitalityintrinsicdefault2",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ]
+    }
+  },
+  "given_item_modifiers": [],
+  "max_uses": 12,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 14,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": "minecraft:swamp"
+      }
+    }
+  }
+}

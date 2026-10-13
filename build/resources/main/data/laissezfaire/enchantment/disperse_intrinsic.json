@@ -1,0 +1,368 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.laissezfaire.disperse_intrinsic"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "coordinate_scale": [
+            0.0,
+            0.1,
+            0.5
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "magnitude": 1.0
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "coordinate_scale": [
+            0.0,
+            0.0,
+            0.5
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "magnitude": 1.0
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "laissezfaire:disperse_intrinsic"
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:play_sound",
+          "pitch": 1.0,
+          "sound": {
+            "sound_id": "minecraft:entity.wither.shoot"
+          },
+          "volume": 10.0
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "max_amplifier": 1.0,
+          "max_duration": 3.0,
+          "min_amplifier": 1.0,
+          "min_duration": 3.0,
+          "to_apply": "minecraft:blindness"
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "max_amplifier": 1.0,
+          "max_duration": 10.0,
+          "min_amplifier": 1.0,
+          "min_duration": 10.0,
+          "to_apply": "minecraft:invisibility"
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:disperse_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1
+}

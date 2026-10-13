@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 423,
+      "minecraft:walk_one_cm": 210,
+      "minecraft:total_world_time": 495,
+      "minecraft:leave_game": 1,
+      "minecraft:sneak_time": 12,
+      "minecraft:play_time": 423,
+      "minecraft:interact_with_stonecutter": 4,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 423
+    },
+    "minecraft:used": {
+      "minecraft:stonecutter": 2,
+      "minecraft:fire_charge": 2
+    }
+  },
+  "DataVersion": 4903
+}

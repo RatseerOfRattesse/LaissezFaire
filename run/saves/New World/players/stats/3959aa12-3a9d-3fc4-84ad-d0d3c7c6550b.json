@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:grass_block": 1,
+      "minecraft:smithing_table": 1,
+      "minecraft:blast_furnace": 10
+    },
+    "minecraft:custom": {
+      "minecraft:traded_with_villager": 76,
+      "minecraft:talked_to_villager": 25,
+      "minecraft:time_since_rest": 6619,
+      "minecraft:walk_one_cm": 6174,
+      "minecraft:play_time": 6619,
+      "minecraft:jump": 21,
+      "minecraft:time_since_death": 6619,
+      "minecraft:sprint_one_cm": 3368,
+      "minecraft:interact_with_smithing_table": 1,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:total_world_time": 8302,
+      "minecraft:fly_one_cm": 3487,
+      "minecraft:crouch_one_cm": 16,
+      "minecraft:sneak_time": 40
+    },
+    "minecraft:crafted": {
+      "minecraft:shelter_pottery_sherd": 7,
+      "minecraft:burn_pottery_sherd": 12,
+      "minecraft:chainmail_boots": 1,
+      "minecraft:blade_pottery_sherd": 12,
+      "minecraft:danger_pottery_sherd": 10,
+      "minecraft:friend_pottery_sherd": 12,
+      "minecraft:explorer_pottery_sherd": 10,
+      "minecraft:guster_pottery_sherd": 13,
+      "minecraft:air": 0
+    }
+  },
+  "DataVersion": 4903
+}

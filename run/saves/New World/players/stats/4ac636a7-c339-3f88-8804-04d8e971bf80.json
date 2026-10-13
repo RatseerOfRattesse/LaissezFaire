@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:damage_resisted": 62,
+      "minecraft:time_since_rest": 647,
+      "minecraft:walk_one_cm": 3306,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 104,
+      "minecraft:play_time": 647,
+      "minecraft:damage_dealt": 72,
+      "minecraft:damage_absorbed": 144,
+      "minecraft:jump": 3,
+      "minecraft:time_since_death": 647,
+      "minecraft:sprint_one_cm": 1815,
+      "minecraft:fall_one_cm": 1099,
+      "minecraft:total_world_time": 784,
+      "minecraft:fly_one_cm": 4965
+    },
+    "minecraft:used": {
+      "minecraft:husk_spawn_egg": 1,
+      "minecraft:enchanted_golden_apple": 1
+    }
+  },
+  "DataVersion": 4903
+}

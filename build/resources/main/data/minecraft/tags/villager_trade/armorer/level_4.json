@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:common_smith/level_4",
+    "minecraft:armorer/4/emerald_diamond_desert_helmet",
+    "minecraft:armorer/4/emerald_diamond_desert_boots",
+    "minecraft:armorer/4/emerald_diamond_plains_helmet",
+    "minecraft:armorer/4/emerald_diamond_plains_boots",
+    "minecraft:armorer/4/emerald_diamond_savanna_helmet",
+    "minecraft:armorer/4/emerald_diamond_savanna_boots",
+    "minecraft:armorer/4/emerald_diamond_snow_helmet",
+    "minecraft:armorer/4/emerald_diamond_snow_boots",
+    "minecraft:armorer/4/emerald_diamond_taiga_helmet",
+    "minecraft:armorer/4/emerald_diamond_taiga_boots",
+    "minecraft:armorer/4/emerald_diamond_jungle_boots",
+    "minecraft:armorer/4/emerald_diamond_jungle_helmet",
+    "minecraft:armorer/4/emerald_diamond_swamp_boots",
+    "minecraft:armorer/4/emerald_diamond_swamp_helmet"
+  ]
+}

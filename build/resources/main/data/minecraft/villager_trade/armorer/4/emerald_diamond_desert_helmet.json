@@ -1,0 +1,74 @@
+{
+  "gives": {
+    "id": "minecraft:diamond_helmet",
+    "components": {
+      "minecraft:enchantments": {
+        "laissezfaire:spark_intrinsic": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "laissezfaire.intrinsic.setbonus",
+          "fallback": "Full Set Bonus:",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.spark.1",
+          "fallback": " Spawns a particle on hit",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.spark.2",
+          "fallback": " that nearby entities are",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.spark.3",
+          "fallback": " forced to look at.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_name": {
+        "translate": "laissezfaire.intrinsic.spark.diamond.helmet",
+        "fallback": "Mirrorweave Helmet",
+        "color": "dark_purple"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_knockback",
+          "id": "laissezfaire:sparkintrinsic2",
+          "amount": 1.5,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "laissezfaire:sparkintrinsicdefault2",
+          "amount": 1.5,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ]
+    }
+  },
+  "given_item_modifiers": [],
+  "max_uses": 12,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 12,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": "minecraft:desert"
+      }
+    }
+  }
+}

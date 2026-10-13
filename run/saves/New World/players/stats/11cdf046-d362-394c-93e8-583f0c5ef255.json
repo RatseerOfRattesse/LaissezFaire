@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:fire_charge": 7
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 171,
+      "minecraft:time_since_rest": 955,
+      "minecraft:fall_one_cm": 591,
+      "minecraft:walk_one_cm": 1706,
+      "minecraft:total_world_time": 5416,
+      "minecraft:fly_one_cm": 4520,
+      "minecraft:damage_taken": 20,
+      "minecraft:crouch_one_cm": 185,
+      "minecraft:sneak_time": 88,
+      "minecraft:play_time": 955,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 955
+    },
+    "minecraft:mined": {
+      "minecraft:fire": 1
+    }
+  },
+  "DataVersion": 4903
+}

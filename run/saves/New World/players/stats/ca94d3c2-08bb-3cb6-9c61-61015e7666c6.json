@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:husk_spawn_egg": 1
+    },
+    "minecraft:custom": {
+      "minecraft:damage_resisted": 30,
+      "minecraft:time_since_rest": 2369,
+      "minecraft:walk_one_cm": 2179,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 101,
+      "minecraft:play_time": 2369,
+      "minecraft:damage_absorbed": 19,
+      "minecraft:jump": 12,
+      "minecraft:time_since_death": 2369,
+      "minecraft:sprint_one_cm": 2015,
+      "minecraft:total_world_time": 2935,
+      "minecraft:fly_one_cm": 13389,
+      "minecraft:crouch_one_cm": 26,
+      "minecraft:sneak_time": 22
+    }
+  },
+  "DataVersion": 4903
+}

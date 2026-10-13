@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:traded_with_villager": 31,
+      "minecraft:talked_to_villager": 5,
+      "minecraft:time_since_rest": 2068,
+      "minecraft:walk_one_cm": 464,
+      "minecraft:total_world_time": 2168,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 2068,
+      "minecraft:jump": 9,
+      "minecraft:time_since_death": 2068,
+      "minecraft:drop": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:emerald": 25
+    },
+    "minecraft:dropped": {
+      "minecraft:emerald": 25
+    },
+    "minecraft:crafted": {
+      "minecraft:blade_pottery_sherd": 5,
+      "minecraft:iron_helmet": 12,
+      "minecraft:fire_charge": 16,
+      "minecraft:iron_leggings": 12
+    }
+  },
+  "DataVersion": 4903
+}

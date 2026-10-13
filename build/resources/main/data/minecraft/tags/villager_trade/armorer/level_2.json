@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:common_smith/level_2",
+    "minecraft:armorer/2/emerald_iron_desert_boots",
+    "minecraft:armorer/2/emerald_iron_desert_helmet",
+    "minecraft:armorer/2/emerald_iron_plains_boots",
+    "minecraft:armorer/2/emerald_iron_plains_helmet",
+    "minecraft:armorer/2/emerald_iron_savanna_boots",
+    "minecraft:armorer/2/emerald_iron_savanna_helmet",
+    "minecraft:armorer/2/emerald_iron_snow_boots",
+    "minecraft:armorer/2/emerald_iron_snow_helmet",
+    "minecraft:armorer/2/emerald_iron_taiga_boots",
+    "minecraft:armorer/2/emerald_iron_taiga_helmet",
+    "minecraft:armorer/2/emerald_iron_jungle_boots",
+    "minecraft:armorer/2/emerald_iron_jungle_helmet",
+    "minecraft:armorer/2/emerald_iron_swamp_boots",
+    "minecraft:armorer/2/emerald_iron_swamp_helmet"
+  ]
+}

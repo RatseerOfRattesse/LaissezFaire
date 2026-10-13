@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:husk": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 3130,
+      "minecraft:time_since_rest": 8911,
+      "minecraft:walk_one_cm": 5098,
+      "minecraft:total_world_time": 13003,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 33197,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 98,
+      "minecraft:play_time": 8911,
+      "minecraft:damage_dealt": 200,
+      "minecraft:jump": 29,
+      "minecraft:time_since_death": 8911
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 1,
+      "minecraft:husk_spawn_egg": 1,
+      "minecraft:netherite_sword": 2,
+      "minecraft:enchanted_golden_apple": 1,
+      "minecraft:dirt": 4
+    }
+  },
+  "DataVersion": 4903
+}

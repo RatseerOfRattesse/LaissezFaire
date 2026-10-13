@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:rotten_flesh": 1
+    },
+    "minecraft:used": {
+      "minecraft:husk_spawn_egg": 1,
+      "minecraft:enchanted_golden_apple": 1,
+      "minecraft:netherite_spear": 6
+    },
+    "minecraft:custom": {
+      "minecraft:damage_resisted": 30,
+      "minecraft:time_since_rest": 1144,
+      "minecraft:walk_one_cm": 5150,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 48,
+      "minecraft:play_time": 1144,
+      "minecraft:damage_dealt": 200,
+      "minecraft:damage_absorbed": 72,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 1144,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 5397,
+      "minecraft:total_world_time": 1257,
+      "minecraft:fly_one_cm": 1175
+    },
+    "minecraft:dropped": {
+      "minecraft:rotten_flesh": 3
+    },
+    "minecraft:killed": {
+      "minecraft:husk": 1
+    }
+  },
+  "DataVersion": 4903
+}

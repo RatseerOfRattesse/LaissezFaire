@@ -1,0 +1,64 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "minecraft:bell": 12,
+      "minecraft:iron_helmet": 12,
+      "minecraft:iron_chestplate": 4,
+      "minecraft:iron_boots": 11,
+      "minecraft:friend_pottery_sherd": 10,
+      "minecraft:iron_leggings": 23
+    },
+    "minecraft:custom": {
+      "minecraft:traded_with_villager": 84,
+      "minecraft:damage_resisted": 6,
+      "minecraft:talked_to_villager": 13,
+      "minecraft:time_since_rest": 1399,
+      "minecraft:walk_one_cm": 19864,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 521,
+      "minecraft:damage_dealt": 54,
+      "minecraft:play_time": 7483,
+      "minecraft:damage_absorbed": 64,
+      "minecraft:jump": 35,
+      "minecraft:time_since_death": 1377,
+      "minecraft:drop": 53,
+      "minecraft:sprint_one_cm": 4371,
+      "minecraft:total_world_time": 7573,
+      "minecraft:fly_one_cm": 25492,
+      "minecraft:crouch_one_cm": 64,
+      "minecraft:sneak_time": 49,
+      "minecraft:deaths": 2
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 15,
+      "minecraft:golden_apple": 1,
+      "minecraft:villager_spawn_egg": 1,
+      "minecraft:husk_spawn_egg": 6,
+      "minecraft:enchanted_golden_apple": 1,
+      "minecraft:dirt": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:grass_block": 1,
+      "minecraft:fire_charge": 64,
+      "minecraft:emerald": 20,
+      "minecraft:villager_spawn_egg": 2,
+      "minecraft:iron_ingot": 64,
+      "minecraft:iron_chestplate": 4
+    },
+    "minecraft:killed_by": {
+      "minecraft:husk": 2
+    },
+    "minecraft:crafted": {
+      "minecraft:iron_ingot": 32,
+      "minecraft:iron_helmet": 14,
+      "minecraft:iron_boots": 13,
+      "minecraft:iron_chestplate": 2,
+      "minecraft:friend_pottery_sherd": 10,
+      "minecraft:bell": 12,
+      "minecraft:air": 0,
+      "minecraft:fire_charge": 32,
+      "minecraft:iron_leggings": 25
+    }
+  },
+  "DataVersion": 4903
+}

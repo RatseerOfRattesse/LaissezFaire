@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "laissezfaire",
+	"version": "1.0.0",
+	"name": "Laissez Faire",
+	"description": "The free market saves Minecraft progression.",
+	"authors": [
+		"RatseerOfRattesse"
+	],
+	"contact": {
+		"homepage": "https://ratseerofrattesse.github.io",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/laissezfaire/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ratseerofrattesse.LaissezFaire"
+		],
+		"client": [
+			"net.ratseerofrattesse.client.LaissezFaireClient"
+		],
+		"fabric-datagen": [
+			"net.ratseerofrattesse.client.LaissezFaireDataGenerator"
+		]
+	},
+	"mixins": [
+		"laissezfaire.mixins.json",
+		{
+			"config": "laissezfaire.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

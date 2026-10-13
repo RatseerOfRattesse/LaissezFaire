@@ -1,0 +1,240 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.laissezfaire.ripple_intrinsic"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "laissezfaire:ripple_intrinsic_owner"
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "laissezfaire:ripple_intrinsic"
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:play_sound",
+          "pitch": 1.0,
+          "sound": {
+            "sound_id": "minecraft:entity.warden.heartbeat"
+          },
+          "volume": 10.0
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:play_sound",
+          "pitch": 1.0,
+          "sound": {
+            "sound_id": "minecraft:block.amethyst_block.resonate"
+          },
+          "volume": 10.0
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "feet": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "head": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              },
+              "legs": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "laissezfaire:ripple_intrinsic"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1
+}

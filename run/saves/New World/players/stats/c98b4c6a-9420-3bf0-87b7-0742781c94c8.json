@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:barrier": 14
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 3939,
+      "minecraft:time_since_rest": 12150,
+      "minecraft:walk_one_cm": 13575,
+      "minecraft:total_world_time": 14073,
+      "minecraft:fly_one_cm": 6527,
+      "minecraft:sneak_time": 26,
+      "minecraft:play_time": 12150,
+      "minecraft:jump": 20,
+      "minecraft:time_since_death": 12150
+    }
+  },
+  "DataVersion": 4903
+}

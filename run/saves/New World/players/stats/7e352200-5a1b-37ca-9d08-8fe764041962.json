@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:friend_pottery_sherd": 4
+    },
+    "minecraft:custom": {
+      "minecraft:traded_with_villager": 4,
+      "minecraft:sprint_one_cm": 596,
+      "minecraft:talked_to_villager": 6,
+      "minecraft:time_since_rest": 1561,
+      "minecraft:fall_one_cm": 212,
+      "minecraft:walk_one_cm": 1315,
+      "minecraft:total_world_time": 2748,
+      "minecraft:leave_game": 1,
+      "minecraft:sneak_time": 10,
+      "minecraft:play_time": 1561,
+      "minecraft:jump": 12,
+      "minecraft:time_since_death": 1561
+    },
+    "minecraft:used": {
+      "minecraft:villager_spawn_egg": 1
+    }
+  },
+  "DataVersion": 4903
+}

@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:smith/3/lava_bucket_emerald",
+    "minecraft:smith/3/emerald_fire_charge"
+  ]
+}

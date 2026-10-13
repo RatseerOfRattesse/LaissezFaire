@@ -1,0 +1,49 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:husk_spawn_egg": 11,
+      "minecraft:enchanted_golden_apple": 2
+    },
+    "minecraft:custom": {
+      "minecraft:traded_with_villager": 49,
+      "minecraft:damage_resisted": 96,
+      "minecraft:talked_to_villager": 9,
+      "minecraft:time_since_rest": 7165,
+      "minecraft:walk_one_cm": 7336,
+      "minecraft:leave_game": 2,
+      "minecraft:mob_kills": 11,
+      "minecraft:damage_taken": 313,
+      "minecraft:damage_dealt": 88,
+      "minecraft:play_time": 7165,
+      "minecraft:damage_absorbed": 187,
+      "minecraft:jump": 26,
+      "minecraft:time_since_death": 7165,
+      "minecraft:drop": 23,
+      "minecraft:sprint_one_cm": 2566,
+      "minecraft:total_world_time": 8684,
+      "minecraft:fly_one_cm": 28398,
+      "minecraft:sneak_time": 15
+    },
+    "minecraft:dropped": {
+      "minecraft:diamond_boots": 12,
+      "minecraft:iron_ingot": 32,
+      "minecraft:iron_chestplate": 3,
+      "minecraft:iron_leggings": 7
+    },
+    "minecraft:killed": {
+      "minecraft:husk": 11
+    },
+    "minecraft:crafted": {
+      "minecraft:shelter_pottery_sherd": 5,
+      "minecraft:diamond_boots": 12,
+      "minecraft:iron_ingot": 32,
+      "minecraft:iron_helmet": 1,
+      "minecraft:iron_chestplate": 4,
+      "minecraft:iron_boots": 1,
+      "minecraft:bell": 10,
+      "minecraft:air": 0,
+      "minecraft:iron_leggings": 12
+    }
+  },
+  "DataVersion": 4903
+}
