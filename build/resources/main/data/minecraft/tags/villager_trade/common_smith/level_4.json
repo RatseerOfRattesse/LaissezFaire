@@ -1,7 +1,0 @@
-{
-  "replace": true,
-  "values": [
-    "minecraft:smith/4/diamond_emerald",
-    "minecraft:smith/4/emerald_iron_ingot"
-  ]
-}

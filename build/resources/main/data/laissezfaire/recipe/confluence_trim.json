@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:smithing_trim",
-  "addition": "#minecraft:trim_materials",
-  "base": "#minecraft:trimmable_armor",
-  "pattern": "laissezfaire:confluence",
-  "template": "minecraft:blade_pottery_sherd"
-}
