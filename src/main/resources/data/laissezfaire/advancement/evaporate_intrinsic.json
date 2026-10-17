@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "evaporate_intrinsic": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "minecraft:equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "laissezfaire:evaporate_intrinsic"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "evaporate_intrinsic"
+    ]
+  ],
+  "rewards": {
+    "function": "laissezfaire:evaporate_intrinsic"
+  }
+}

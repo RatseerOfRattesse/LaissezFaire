@@ -1,7 +1,19 @@
 {
   "replace": true,
   "values": [
-    "#minecraft:common_smith/level_5",
-    "minecraft:toolsmith/5/emerald_enchanted_diamond_pickaxe"
+    "minecraft:toolsmith/5/emerald_diamond_desert_axe",
+    "minecraft:toolsmith/5/emerald_diamond_desert_pickaxe",
+    "minecraft:toolsmith/5/emerald_diamond_plains_axe",
+    "minecraft:toolsmith/5/emerald_diamond_plains_pickaxe",
+    "minecraft:toolsmith/5/emerald_diamond_savanna_axe",
+    "minecraft:toolsmith/5/emerald_diamond_savanna_pickaxe",
+    "minecraft:toolsmith/5/emerald_diamond_snow_axe",
+    "minecraft:toolsmith/5/emerald_diamond_snow_pickaxe",
+    "minecraft:toolsmith/5/emerald_diamond_taiga_axe",
+    "minecraft:toolsmith/5/emerald_diamond_taiga_pickaxe",
+    "minecraft:toolsmith/5/emerald_diamond_jungle_axe",
+    "minecraft:toolsmith/5/emerald_diamond_jungle_pickaxe",
+    "minecraft:toolsmith/5/emerald_diamond_swamp_axe",
+    "minecraft:toolsmith/5/emerald_diamond_swamp_pickaxe"
   ]
 }

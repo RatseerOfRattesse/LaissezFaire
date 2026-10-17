@@ -1,0 +1,68 @@
+{
+  "given_item_modifiers": [],
+  "gives": {
+    "id": "minecraft:iron_axe",
+    "components": {
+      "minecraft:enchantments": {
+        "laissezfaire:lichen_intrinsic": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "laissezfaire.intrinsic.effect",
+          "fallback": "Effect:",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.lichen.1",
+          "fallback": " Place a temporary light",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.lichen.2",
+          "fallback": " when you break a block.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_name": {
+        "translate": "laissezfaire.intrinsic.lichen.iron.axe",
+        "fallback": "Glowing Axe",
+        "color": "yellow"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:oxygen_bonus",
+          "id": "laissezfaire:lichenintrinsic",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:mining_efficiency",
+          "id": "laissezfaire:lichenintrinsicdefault",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  },
+  "max_uses": 3,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 4,
+    "id": "minecraft:emerald"
+  },
+  "xp": 10,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": "minecraft:plains"
+      }
+    }
+  }
+}

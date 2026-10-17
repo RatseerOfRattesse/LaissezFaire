@@ -2,10 +2,19 @@
   "replace": true,
   "values": [
     "#minecraft:common_smith/level_3",
-    "minecraft:toolsmith/3/flint_emerald",
-    "minecraft:toolsmith/3/emerald_enchanted_iron_axe",
-    "minecraft:toolsmith/3/emerald_enchanted_iron_shovel",
-    "minecraft:toolsmith/3/emerald_enchanted_iron_pickaxe",
-    "minecraft:toolsmith/3/emerald_diamond_hoe"
+    "minecraft:toolsmith/3/emerald_iron_desert_axe",
+    "minecraft:toolsmith/3/emerald_iron_desert_pickaxe",
+    "minecraft:toolsmith/3/emerald_iron_plains_axe",
+    "minecraft:toolsmith/3/emerald_iron_plains_pickaxe",
+    "minecraft:toolsmith/3/emerald_iron_savanna_axe",
+    "minecraft:toolsmith/3/emerald_iron_savanna_pickaxe",
+    "minecraft:toolsmith/3/emerald_iron_snow_axe",
+    "minecraft:toolsmith/3/emerald_iron_snow_pickaxe",
+    "minecraft:toolsmith/3/emerald_iron_taiga_axe",
+    "minecraft:toolsmith/3/emerald_iron_taiga_pickaxe",
+    "minecraft:toolsmith/3/emerald_iron_jungle_axe",
+    "minecraft:toolsmith/3/emerald_iron_jungle_pickaxe",
+    "minecraft:toolsmith/3/emerald_iron_swamp_axe",
+    "minecraft:toolsmith/3/emerald_iron_swamp_pickaxe"
   ]
 }

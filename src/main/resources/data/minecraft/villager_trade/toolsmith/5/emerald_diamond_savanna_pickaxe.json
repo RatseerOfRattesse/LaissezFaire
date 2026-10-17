@@ -1,0 +1,68 @@
+{
+  "given_item_modifiers": [],
+  "gives": {
+    "id": "minecraft:diamond_pickaxe",
+    "components": {
+      "minecraft:enchantments": {
+        "laissezfaire:expose_intrinsic": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "laissezfaire.intrinsic.effect",
+          "fallback": "Effect:",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.expose.1",
+          "fallback": " Breaking a block glows",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.expose.2",
+          "fallback": " nearby non-teamed mobs.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_name": {
+        "translate": "laissezfaire.intrinsic.expose.diamond.pickaxe",
+        "fallback": "Panoptical Pickaxe",
+        "color": "dark_purple"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:block_interaction_range",
+          "id": "laissezfaire:exposeintrinsic",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:mining_efficiency",
+          "id": "laissezfaire:exposeintrinsicdefault",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  },
+  "max_uses": 3,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 8,
+    "id": "minecraft:emerald"
+  },
+  "xp": 10,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": "minecraft:savanna"
+      }
+    }
+  }
+}

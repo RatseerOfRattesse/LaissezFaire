@@ -1,0 +1,68 @@
+{
+  "given_item_modifiers": [],
+  "gives": {
+    "id": "minecraft:iron_axe",
+    "components": {
+      "minecraft:enchantments": {
+        "laissezfaire:evil_intrinsic": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "laissezfaire.intrinsic.effect",
+          "fallback": "Effect:",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.evil.1",
+          "fallback": " The tool becomes an",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "laissezfaire.intrinsic.evil.2",
+          "fallback": " improvised weapon.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_name": {
+        "translate": "laissezfaire.intrinsic.evil.iron.axe",
+        "fallback": "Terrible Axe",
+        "color": "yellow"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:burning_time",
+          "id": "laissezfaire:evilintrinsic",
+          "amount": -0.5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:mining_efficiency",
+          "id": "laissezfaire:evilintrinsicdefault",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  },
+  "max_uses": 3,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 4,
+    "id": "minecraft:emerald"
+  },
+  "xp": 10,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": "minecraft:jungle"
+      }
+    }
+  }
+}

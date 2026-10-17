@@ -16,6 +16,7 @@ public class LaissezFaireDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModEnchantmentProvider::new);
 		pack.addProvider(ModEnchantmentTagProvider::new);
 		pack.addProvider(ModAdvancementProvider::new);
+		pack.addProvider(ModItemTagsProvider::new);
 	}
 
 	@Override

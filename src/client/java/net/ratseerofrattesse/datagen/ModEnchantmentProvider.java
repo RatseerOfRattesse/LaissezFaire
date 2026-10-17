@@ -5,15 +5,10 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider
 import net.minecraft.advancements.predicates.*;
 import net.minecraft.advancements.predicates.entity.*;
 import net.minecraft.core.*;
-import net.minecraft.core.component.DataComponentExactPredicate;
-import net.minecraft.core.component.DataComponents;
-import net.minecraft.core.component.predicates.DataComponentPredicate;
 import net.minecraft.core.component.predicates.DataComponentPredicates;
 import net.minecraft.core.component.predicates.EnchantmentsPredicate;
 import net.minecraft.core.particles.GeyserBaseParticleOptions;
-import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.Identifier;
@@ -23,19 +18,13 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.util.valueproviders.ConstantFloat;
 import net.minecraft.util.valueproviders.FloatProvider;
-import net.minecraft.util.valueproviders.FloatProviders;
-import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.EntityTypes;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.enchantment.*;
 import net.minecraft.world.item.enchantment.effects.*;
-import net.minecraft.world.level.GameType;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
@@ -332,6 +321,195 @@ public class ModEnchantmentProvider extends FabricDynamicRegistryProvider {
                                 Enchantment.dynamicCost(0, 0),
                                 0,
                                 EquipmentSlotGroup.ARMOR
+                        )
+                )
+        );
+
+
+
+        register(context, ModEnchantments.EVAPORATE_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ItemTags.MINING_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.LICHEN_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ItemTags.MINING_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.EXPOSE_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ItemTags.MINING_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.EXTRACT_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ItemTags.MINING_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.RESOLVE_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ItemTags.MINING_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.EVIL_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ItemTags.MINING_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.CONSUME_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ItemTags.MINING_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+
+
+
+
+        register(context, ModEnchantments.DESCEND_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ModItemTagsProvider.WEAPONSMITH_INTRINSIC_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.BANISH_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ModItemTagsProvider.WEAPONSMITH_INTRINSIC_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.HEART_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ModItemTagsProvider.WEAPONSMITH_INTRINSIC_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.SAPPING_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ModItemTagsProvider.WEAPONSMITH_INTRINSIC_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.QUICKDRAW_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ModItemTagsProvider.WEAPONSMITH_INTRINSIC_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.GRUDGE_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ModItemTagsProvider.WEAPONSMITH_INTRINSIC_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
+                        )
+                )
+        );
+        register(context, ModEnchantments.REFLEX_INTRINSIC,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                context.lookup(Registries.ITEM).getOrThrow(ModItemTagsProvider.WEAPONSMITH_INTRINSIC_ENCHANTABLE),
+                                1,
+                                1,
+                                Enchantment.dynamicCost(0, 0),
+                                Enchantment.dynamicCost(0, 0),
+                                0,
+                                EquipmentSlotGroup.MAINHAND
                         )
                 )
         );

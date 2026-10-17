@@ -1,6 +1,20 @@
 {
   "replace": true,
   "values": [
-    "#minecraft:common_smith/level_2"
+    "#minecraft:common_smith/level_2",
+    "minecraft:toolsmith/2/emerald_iron_desert_shovel",
+    "minecraft:toolsmith/2/emerald_iron_desert_hoe",
+    "minecraft:toolsmith/2/emerald_iron_plains_shovel",
+    "minecraft:toolsmith/2/emerald_iron_plains_hoe",
+    "minecraft:toolsmith/2/emerald_iron_savanna_shovel",
+    "minecraft:toolsmith/2/emerald_iron_savanna_hoe",
+    "minecraft:toolsmith/2/emerald_iron_snow_shovel",
+    "minecraft:toolsmith/2/emerald_iron_snow_hoe",
+    "minecraft:toolsmith/2/emerald_iron_taiga_shovel",
+    "minecraft:toolsmith/2/emerald_iron_taiga_hoe",
+    "minecraft:toolsmith/2/emerald_iron_jungle_shovel",
+    "minecraft:toolsmith/2/emerald_iron_jungle_hoe",
+    "minecraft:toolsmith/2/emerald_iron_swamp_shovel",
+    "minecraft:toolsmith/2/emerald_iron_swamp_hoe"
   ]
 }

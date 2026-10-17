@@ -46,7 +46,7 @@
         {
           "type": "minecraft:attack_damage",
           "id": "laissezfaire:vengefulintrinsic",
-          "amount": 0.5,
+          "amount": 5,
           "operation": "add_value",
           "slot": "legs"
         },

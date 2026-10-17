@@ -2,6 +2,7 @@ package net.ratseerofrattesse;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.resources.Identifier;
 
 import net.ratseerofrattesse.command.ModCommands;
@@ -15,10 +16,14 @@ public class LaissezFaire implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("It's time to economy.");
 		DefaultComponentModifier.modifyComponents();
 		DefaultComponentModifier.modifyFuels();
 		ModCommands.registerCommands();
+		if (FabricLoader.getInstance().isModLoaded("realmbinder")) {
+			LOGGER.info("Scales galore!");
+		} else {
+			LOGGER.info("It's time to economy.");
+		}
 	}
 
 	public static Identifier id(String path) {

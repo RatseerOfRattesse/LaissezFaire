@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "extract_intrinsic": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "minecraft:equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "laissezfaire:extract_intrinsic"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "extract_intrinsic"
+    ]
+  ],
+  "rewards": {
+    "function": "laissezfaire:extract_intrinsic"
+  }
+}

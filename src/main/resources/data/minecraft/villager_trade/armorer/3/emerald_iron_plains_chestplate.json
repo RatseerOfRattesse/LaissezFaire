@@ -53,7 +53,7 @@
         {
           "type": "minecraft:armor",
           "id": "laissezfaire:disperseintrinsicdefault",
-          "amount": 0.5,
+          "amount": 6,
           "operation": "add_value",
           "slot": "chest"
         }

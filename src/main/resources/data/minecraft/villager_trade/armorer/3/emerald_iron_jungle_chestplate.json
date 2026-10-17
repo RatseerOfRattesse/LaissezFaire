@@ -46,14 +46,14 @@
         {
           "type": "minecraft:attack_damage",
           "id": "laissezfaire:vengefulintrinsic",
-          "amount": 0.5,
+          "amount": 6,
           "operation": "add_value",
           "slot": "chest"
         },
         {
           "type": "minecraft:armor",
           "id": "laissezfaire:vengefulintrinsicdefault",
-          "amount": 0.5,
+          "amount": 6,
           "operation": "add_value",
           "slot": "chest"
         }

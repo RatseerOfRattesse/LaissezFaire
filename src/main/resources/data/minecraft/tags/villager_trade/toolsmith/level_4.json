@@ -2,8 +2,19 @@
   "replace": true,
   "values": [
     "#minecraft:common_smith/level_4",
-    "minecraft:toolsmith/4/emerald_enchanted_diamond_axe",
-    "minecraft:toolsmith/4/emerald_enchanted_diamond_shovel",
-    "minecraft:toolsmith/4/diamond_emerald"
+    "minecraft:toolsmith/4/emerald_diamond_desert_shovel",
+    "minecraft:toolsmith/4/emerald_diamond_desert_hoe",
+    "minecraft:toolsmith/4/emerald_diamond_plains_shovel",
+    "minecraft:toolsmith/4/emerald_diamond_plains_hoe",
+    "minecraft:toolsmith/4/emerald_diamond_savanna_shovel",
+    "minecraft:toolsmith/4/emerald_diamond_savanna_hoe",
+    "minecraft:toolsmith/4/emerald_diamond_snow_shovel",
+    "minecraft:toolsmith/4/emerald_diamond_snow_hoe",
+    "minecraft:toolsmith/4/emerald_diamond_taiga_shovel",
+    "minecraft:toolsmith/4/emerald_diamond_taiga_hoe",
+    "minecraft:toolsmith/4/emerald_diamond_jungle_shovel",
+    "minecraft:toolsmith/4/emerald_diamond_jungle_hoe",
+    "minecraft:toolsmith/4/emerald_diamond_swamp_shovel",
+    "minecraft:toolsmith/4/emerald_diamond_swamp_hoe"
   ]
 }

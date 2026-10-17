@@ -38,6 +38,22 @@ public class ModGoodEnglishProvider extends FabricLanguageProvider {
         translationBuilder.add("enchantment.laissezfaire.vengeful_intrinsic", "Vengeful Intrinsic");
         translationBuilder.add("enchantment.laissezfaire.vitality_intrinsic", "Vitality Intrinsic");
 
+        translationBuilder.add("enchantment.laissezfaire.evaporate_intrinsic", "Evaporate Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.lichen_intrinsic", "Lichen Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.expose_intrinsic", "Expose Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.extract_intrinsic", "Extract Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.resolve_intrinsic", "Resolve Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.evil_intrinsic", "Evil Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.consume_intrinsic", "Consume Intrinsic");
+
+        translationBuilder.add("enchantment.laissezfaire.descend_intrinsic", "Descend Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.banish_intrinsic", "Banish Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.heart_intrinsic", "Heart Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.sapping_intrinsic", "Sapping Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.quickdraw_intrinsic", "Quickdraw Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.grudge_intrinsic", "Grudge Intrinsic");
+        translationBuilder.add("enchantment.laissezfaire.reflex_intrinsic", "Reflex Intrinsic");
+
 
 
         translationBuilder.add("laissezfaire.intrinsic.setbonus", "Full Set Bonus:");
@@ -142,6 +158,181 @@ public class ModGoodEnglishProvider extends FabricLanguageProvider {
         translationBuilder.add("laissezfaire.intrinsic.vitality.diamond.chestplate", "Vigor Chestplate");
         translationBuilder.add("laissezfaire.intrinsic.vitality.diamond.leggings", "Vigor Leggings");
         translationBuilder.add("laissezfaire.intrinsic.vitality.diamond.boots", "Vigor Boots");
+
+
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.1", " Remove fluids in a radius");
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.2", " around any block broken.");
+
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.iron.axe", "Aqueous Axe");
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.iron.hoe", "Aqueous Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.iron.pickaxe", "Aqueous Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.iron.shovel", "Aqueous Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.diamond.axe", "Mirage Axe");
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.diamond.hoe", "Mirage Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.diamond.pickaxe", "Mirage Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.evaporate.diamond.shovel", "Mirage Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.lichen.1", " Place a temporary light");
+        translationBuilder.add("laissezfaire.intrinsic.lichen.2", " when you break a block.");
+
+        translationBuilder.add("laissezfaire.intrinsic.lichen.iron.axe", "Glowing Axe");
+        translationBuilder.add("laissezfaire.intrinsic.lichen.iron.hoe", "Glowing Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.lichen.iron.pickaxe", "Glowing Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.lichen.iron.shovel", "Glowing Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.lichen.diamond.axe", "Luminous Axe");
+        translationBuilder.add("laissezfaire.intrinsic.lichen.diamond.hoe", "Luminous Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.lichen.diamond.pickaxe", "Luminous Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.lichen.diamond.shovel", "Luminous Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.expose.1", " Breaking a block glows");
+        translationBuilder.add("laissezfaire.intrinsic.expose.2", " nearby non-teamed mobs.");
+
+        translationBuilder.add("laissezfaire.intrinsic.expose.iron.axe", "Insightful Axe");
+        translationBuilder.add("laissezfaire.intrinsic.expose.iron.hoe", "Insightful Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.expose.iron.pickaxe", "Insightful Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.expose.iron.shovel", "Insightful Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.expose.diamond.axe", "Panoptical Axe");
+        translationBuilder.add("laissezfaire.intrinsic.expose.diamond.hoe", "Panoptical Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.expose.diamond.pickaxe", "Panoptical Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.expose.diamond.shovel", "Panoptical Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.extract.1", " Broken blocks may");
+        translationBuilder.add("laissezfaire.intrinsic.extract.2", " drop experience.");
+
+        translationBuilder.add("laissezfaire.intrinsic.extract.iron.axe", "Precise Axe");
+        translationBuilder.add("laissezfaire.intrinsic.extract.iron.hoe", "Precise Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.extract.iron.pickaxe", "Precise Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.extract.iron.shovel", "Precise Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.extract.diamond.axe", "Surgical Axe");
+        translationBuilder.add("laissezfaire.intrinsic.extract.diamond.hoe", "Surgical Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.extract.diamond.pickaxe", "Surgical Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.extract.diamond.shovel", "Surgical Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.resolve.1", " Mining speed increases");
+        translationBuilder.add("laissezfaire.intrinsic.resolve.2", " with each block broken.");
+
+        translationBuilder.add("laissezfaire.intrinsic.resolve.iron.axe", "Stubborn Axe");
+        translationBuilder.add("laissezfaire.intrinsic.resolve.iron.hoe", "Stubborn Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.resolve.iron.pickaxe", "Stubborn Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.resolve.iron.shovel", "Stubborn Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.resolve.diamond.axe", "Determined Axe");
+        translationBuilder.add("laissezfaire.intrinsic.resolve.diamond.hoe", "Determined Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.resolve.diamond.pickaxe", "Determined Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.resolve.diamond.shovel", "Determined Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.evil.1", " The tool becomes an");
+        translationBuilder.add("laissezfaire.intrinsic.evil.2", " improvised weapon.");
+
+        translationBuilder.add("laissezfaire.intrinsic.evil.iron.axe", "Terrible Axe");
+        translationBuilder.add("laissezfaire.intrinsic.evil.iron.hoe", "Terrible Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.evil.iron.pickaxe", "Terrible Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.evil.iron.shovel", "Terrible Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.evil.diamond.axe", "Malevolent Axe");
+        translationBuilder.add("laissezfaire.intrinsic.evil.diamond.hoe", "Malevolent Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.evil.diamond.pickaxe", "Malevolent Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.evil.diamond.shovel", "Malevolent Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.consume.1", " Take hunger from blocks");
+        translationBuilder.add("laissezfaire.intrinsic.consume.2", " broken.");
+
+        translationBuilder.add("laissezfaire.intrinsic.consume.iron.axe", "Hungry Axe");
+        translationBuilder.add("laissezfaire.intrinsic.consume.iron.hoe", "Hungry Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.consume.iron.pickaxe", "Hungry Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.consume.iron.shovel", "Hungry Shovel");
+
+        translationBuilder.add("laissezfaire.intrinsic.consume.diamond.axe", "Insatiable Axe");
+        translationBuilder.add("laissezfaire.intrinsic.consume.diamond.hoe", "Insatiable Hoe");
+        translationBuilder.add("laissezfaire.intrinsic.consume.diamond.pickaxe", "Insatiable Pickaxe");
+        translationBuilder.add("laissezfaire.intrinsic.consume.diamond.shovel", "Insatiable Shovel");
+
+
+
+        translationBuilder.add("laissezfaire.intrinsic.descend.1", " Hit entities are shoved");
+        translationBuilder.add("laissezfaire.intrinsic.descend.2", " downwards into the ground.");
+
+        translationBuilder.add("laissezfaire.intrinsic.descend.iron.axe", "Deep Axe");
+        translationBuilder.add("laissezfaire.intrinsic.descend.iron.spear", "Deep Spear");
+        translationBuilder.add("laissezfaire.intrinsic.descend.iron.sword", "Deep Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.descend.diamond.axe", "Underworld Axe");
+        translationBuilder.add("laissezfaire.intrinsic.descend.diamond.spear", "Underworld Spear");
+        translationBuilder.add("laissezfaire.intrinsic.descend.diamond.sword", "Underworld Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.banish.1", " Chance to delete undead,");
+        translationBuilder.add("laissezfaire.intrinsic.banish.2", " leaving no drops or");
+        translationBuilder.add("laissezfaire.intrinsic.banish.3", " experience.");
+
+        translationBuilder.add("laissezfaire.intrinsic.banish.iron.axe", "Holy Axe");
+        translationBuilder.add("laissezfaire.intrinsic.banish.iron.spear", "Holy Spear");
+        translationBuilder.add("laissezfaire.intrinsic.banish.iron.sword", "Holy Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.banish.diamond.axe", "Sanctified Axe");
+        translationBuilder.add("laissezfaire.intrinsic.banish.diamond.spear", "Sanctified Spear");
+        translationBuilder.add("laissezfaire.intrinsic.banish.diamond.sword", "Sanctified Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.heart.1", " Hitting a teamed entity");
+        translationBuilder.add("laissezfaire.intrinsic.heart.2", " heals both of you.");
+
+        translationBuilder.add("laissezfaire.intrinsic.heart.iron.axe", "Loving Axe");
+        translationBuilder.add("laissezfaire.intrinsic.heart.iron.spear", "Loving Spear");
+        translationBuilder.add("laissezfaire.intrinsic.heart.iron.sword", "Loving Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.heart.diamond.axe", "Affectionate Axe");
+        translationBuilder.add("laissezfaire.intrinsic.heart.diamond.spear", "Affectionate Spear");
+        translationBuilder.add("laissezfaire.intrinsic.heart.diamond.sword", "Affectionate Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.sapping.1", " More experience drops");
+        translationBuilder.add("laissezfaire.intrinsic.sapping.2", " from mobs.");
+
+        translationBuilder.add("laissezfaire.intrinsic.sapping.iron.axe", "Dripping Axe");
+        translationBuilder.add("laissezfaire.intrinsic.sapping.iron.spear", "Dripping Spear");
+        translationBuilder.add("laissezfaire.intrinsic.sapping.iron.sword", "Dripping Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.sapping.diamond.axe", "Funnelled Axe");
+        translationBuilder.add("laissezfaire.intrinsic.sapping.diamond.spear", "Funnelled Spear");
+        translationBuilder.add("laissezfaire.intrinsic.sapping.diamond.sword", "Funnelled Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.1", " Base attack damage is");
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.2", " lowered but attack speed");
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.3", " increases with every");
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.4", " subsequent hit.");
+
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.iron.axe", "Swift Axe");
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.iron.spear", "Swift Spear");
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.iron.sword", "Swift Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.diamond.axe", "Windflow Axe");
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.diamond.spear", "Windflow Spear");
+        translationBuilder.add("laissezfaire.intrinsic.quickdraw.diamond.sword", "Windflow Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.grudge.1", " If you continue hitting");
+        translationBuilder.add("laissezfaire.intrinsic.grudge.2", " the same entity, it");
+        translationBuilder.add("laissezfaire.intrinsic.grudge.3", " takes extra damage.");
+
+        translationBuilder.add("laissezfaire.intrinsic.grudge.iron.axe", "Memory Axe");
+        translationBuilder.add("laissezfaire.intrinsic.grudge.iron.spear", "Memory Spear");
+        translationBuilder.add("laissezfaire.intrinsic.grudge.iron.sword", "Memory Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.grudge.diamond.axe", "Vengeance Axe");
+        translationBuilder.add("laissezfaire.intrinsic.grudge.diamond.spear", "Vengeance Spear");
+        translationBuilder.add("laissezfaire.intrinsic.grudge.diamond.sword", "Vengeance Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.reflex.1", " Chance to dodge an attack");
+        translationBuilder.add("laissezfaire.intrinsic.reflex.2", " and move backwards.");
+
+        translationBuilder.add("laissezfaire.intrinsic.reflex.iron.axe", "Instinct Axe");
+        translationBuilder.add("laissezfaire.intrinsic.reflex.iron.spear", "Instinct Spear");
+        translationBuilder.add("laissezfaire.intrinsic.reflex.iron.sword", "Instinct Sword");
+
+        translationBuilder.add("laissezfaire.intrinsic.reflex.diamond.axe", "Cerebrum Axe");
+        translationBuilder.add("laissezfaire.intrinsic.reflex.diamond.spear", "Cerebrum Spear");
+        translationBuilder.add("laissezfaire.intrinsic.reflex.diamond.sword", "Cerebrum Sword");
 
 
 

@@ -6,6 +6,7 @@
     "laissezfaire:accrue_intrinsic",
     "laissezfaire:phantom_intrinsic",
     "laissezfaire:vengeful_intrinsic",
-    "laissezfaire:vitality_intrinsic"
+    "laissezfaire:vitality_intrinsic",
+    "laissezfaire:evaporate_intrinsic"
   ]
 }

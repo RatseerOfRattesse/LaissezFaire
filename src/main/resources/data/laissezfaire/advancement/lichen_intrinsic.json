@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "lichen_intrinsic": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "minecraft:equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "laissezfaire:lichen_intrinsic"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lichen_intrinsic"
+    ]
+  ],
+  "rewards": {
+    "function": "laissezfaire:lichen_intrinsic"
+  }
+}
