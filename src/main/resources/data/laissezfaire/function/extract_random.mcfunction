@@ -1,0 +1,1 @@
+execute store result score LaissezFaireControl extractintrinsic run random roll 0..3

@@ -26,7 +26,21 @@ public class ModEnchantmentTagProvider extends FabricTagsProvider<Enchantment> {
                 .add(ModEnchantments.VENGEFUL_INTRINSIC)
                 .add(ModEnchantments.VITALITY_INTRINSIC)
 
-                .add(ModEnchantments.EVAPORATE_INTRINSIC);
+                .add(ModEnchantments.EVAPORATE_INTRINSIC)
+                .add(ModEnchantments.LICHEN_INTRINSIC)
+                .add(ModEnchantments.EXPOSE_INTRINSIC)
+                .add(ModEnchantments.EXTRACT_INTRINSIC)
+                .add(ModEnchantments.RESOLVE_INTRINSIC)
+                .add(ModEnchantments.EVIL_INTRINSIC)
+                .add(ModEnchantments.CONSUME_INTRINSIC)
+
+                .add(ModEnchantments.DESCEND_INTRINSIC)
+                .add(ModEnchantments.BANISH_INTRINSIC)
+                .add(ModEnchantments.HEART_INTRINSIC)
+                .add(ModEnchantments.SAPPING_INTRINSIC)
+                .add(ModEnchantments.QUICKDRAW_INTRINSIC)
+                .add(ModEnchantments.GRUDGE_INTRINSIC)
+                .add(ModEnchantments.REFLEX_INTRINSIC);
 
     }
 }

@@ -1,6 +1,6 @@
 advancement revoke @s only laissezfaire:vengeful_intrinsic
 tag @s add vengefulOwner
-execute as @a if score @s laissezteam = @p[tag=vengefulOwner] laissezteam run tag @s add vengefulTeam
+execute as @e if score @s laissezteam = @p[tag=vengefulOwner] laissezteam run tag @s add vengefulTeam
 damage @s 1 minecraft:magic
 playsound minecraft:entity.allay.hurt player @a[distance=..16] ~ ~ ~ 100
 particle minecraft:raid_omen ~ ~1 ~ 0.1 0.1 0.1 3 5 normal

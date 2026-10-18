@@ -18,6 +18,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.util.valueproviders.ConstantFloat;
 import net.minecraft.util.valueproviders.FloatProvider;
+import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlotGroup;
@@ -403,6 +404,16 @@ public class ModEnchantmentProvider extends FabricDynamicRegistryProvider {
                                 0,
                                 EquipmentSlotGroup.MAINHAND
                         )
+                ).withEffect(
+                        EnchantmentEffectComponents.POST_ATTACK,
+                        EnchantmentTarget.ATTACKER,
+                        EnchantmentTarget.VICTIM,
+                        new DamageEntity(LevelBasedValue.constant(3), LevelBasedValue.constant(3), context.lookup(Registries.DAMAGE_TYPE).getOrThrow(DamageTypes.MAGIC))
+                ).withEffect(
+                        EnchantmentEffectComponents.POST_ATTACK,
+                        EnchantmentTarget.ATTACKER,
+                        EnchantmentTarget.VICTIM,
+                        new RunFunction(Identifier.fromNamespaceAndPath(LaissezFaire.MOD_ID, "evil_intrinsic"))
                 )
         );
         register(context, ModEnchantments.CONSUME_INTRINSIC,

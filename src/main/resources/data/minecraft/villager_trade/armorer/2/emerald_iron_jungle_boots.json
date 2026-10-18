@@ -53,7 +53,7 @@
         {
           "type": "minecraft:armor",
           "id": "laissezfaire:vengefulintrinsicdefault",
-          "amount": 0.5,
+          "amount": 2,
           "operation": "add_value",
           "slot": "feet"
         }

@@ -7,6 +7,19 @@
     "laissezfaire:phantom_intrinsic",
     "laissezfaire:vengeful_intrinsic",
     "laissezfaire:vitality_intrinsic",
-    "laissezfaire:evaporate_intrinsic"
+    "laissezfaire:evaporate_intrinsic",
+    "laissezfaire:lichen_intrinsic",
+    "laissezfaire:expose_intrinsic",
+    "laissezfaire:extract_intrinsic",
+    "laissezfaire:resolve_intrinsic",
+    "laissezfaire:evil_intrinsic",
+    "laissezfaire:consume_intrinsic",
+    "laissezfaire:descend_intrinsic",
+    "laissezfaire:banish_intrinsic",
+    "laissezfaire:heart_intrinsic",
+    "laissezfaire:sapping_intrinsic",
+    "laissezfaire:quickdraw_intrinsic",
+    "laissezfaire:grudge_intrinsic",
+    "laissezfaire:reflex_intrinsic"
   ]
 }

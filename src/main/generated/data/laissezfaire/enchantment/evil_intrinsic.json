@@ -3,6 +3,28 @@
   "description": {
     "translate": "enchantment.laissezfaire.evil_intrinsic"
   },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:damage_entity",
+          "damage_type": "minecraft:magic",
+          "max_damage": 3.0,
+          "min_damage": 1.0
+        },
+        "enchanted": "attacker"
+      },
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "laissezfaire:evil_intrinsic"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
   "max_cost": {
     "base": 0,
     "per_level_above_first": 0

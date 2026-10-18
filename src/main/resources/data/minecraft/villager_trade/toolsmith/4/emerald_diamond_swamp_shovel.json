@@ -35,14 +35,7 @@
         {
           "type": "minecraft:knockback_resistance",
           "id": "laissezfaire:consumeintrinsic",
-          "amount": 1,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:mining_efficiency",
-          "id": "laissezfaire:consumeintrinsicdefault",
-          "amount": 1,
+          "amount": 0.5,
           "operation": "add_value",
           "slot": "mainhand"
         }

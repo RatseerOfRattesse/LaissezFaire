@@ -38,13 +38,6 @@
           "amount": -0.7,
           "operation": "add_value",
           "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:mining_efficiency",
-          "id": "laissezfaire:evilintrinsicdefault",
-          "amount": 1,
-          "operation": "add_value",
-          "slot": "mainhand"
         }
       ]
     }
